@@ -21,7 +21,7 @@ contract Lottery {
         _addr = addr;
     }
     
-    function callFeed(uint32 _gas) public payable { 
+    function callLottery(uint32 _gas) public payable { 
        // _name.play.value(msg.value).gas(_gas)(gogo(true));
         _addr.call.value(msg.value)(bytes4(sha3("play(bool)")),gogo(true));
     }
