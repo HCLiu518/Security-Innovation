@@ -1,8 +1,5 @@
 pragma solidity ^0.4.21;
 
-contract LotteryInterface {
-    function play(bool _heads) external payable;
-}
 
 contract Lottery {
     function gogo(bool _heads) public view returns (bool) {
