@@ -25,3 +25,4 @@ contract Lottery {
        // _name.play.value(msg.value).gas(_gas)(gogo(true));
         _addr.call.value(msg.value)(bytes4(sha3("play(bool)")),gogo(true));
     }
+}
